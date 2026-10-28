@@ -1,0 +1,13 @@
+FASTEZZ Smart OCR - Android Studio ke bina APK banane ka tarika
+
+Is ZIP mein GitHub Actions cloud-build workflow joda gaya hai. APK isi chat mein compile nahi hua hai.
+
+1. GitHub.com par sign in karein ya account banayein.
+2. New repository banayein, naam FASTEZZ-Smart-OCR rakhein.
+3. Is folder ke andar ki sabhi files repository mein upload karein (ZIP ko seedha upload na karein; pehle extract karein).
+4. Repository mein Actions tab kholein. Agar prompt aaye to workflows enable karein.
+5. “Build FASTEZZ Smart OCR APK” workflow select karke “Run workflow” dabayein.
+6. Build successful hone par workflow run kholein, neeche Artifacts se FASTEZZ-Smart-OCR-debug-APK download karein.
+7. ZIP artifact ko extract karein; app-debug.apk milegi. Android phone par install karte waqt “Install unknown apps” permission mang sakta hai.
+
+Note: APK debug/testing build hogi. Build fail ho to error log share karein; uske mutabik project fix karna hoga. APK ko build/test kiye bina compatibility ki guarantee nahi di ja sakti.
